@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&family=#BF953Ftail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap");
+
+@font-face {
+    font-family: neon;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf)
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* -------------------------------Body------------------------------- */
+body {
+    margin: 3px;
+}
+
+/* -------------------------Section 1 Boxes--------------------------- */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+    border: 4px solid;
+    border-radius: 15px;
+    border-color: #BF953F;
+    opacity: 80%;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+@keyframes neon {
+
+    0%,
+    100% {
+        text-shadow:
+            0 0 10vw #fc1b14,
+            0 0 .4vw #fccd24,
+            .5vw .5vw .1vw #7c6614;
+        color: #fccd24;
+    }
+
+    50% {
+        text-shadow:
+            0 0 5vw #7e0f0b,
+            0 0 .2vw #7e0f0b,
+            .5vw .5vw .1vw #3d320a;
+        color: #816913;
+    }
+}
+
+.two {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    opacity: 80%;
+    border-radius: 15px;
+}
+
+.three {
+    grid-column: 1;
+    grid-row: 2 / 5;
+    border: 4px solid;
+    border-radius: 15px;
+    border-color: #BF953F;
+    opacity: 80%;
+    border-radius: 15px;
+    padding-top: 15px;
+}
+
+.qualifications {
+    color: #BF953F;
+    font-size: 25px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.words {
+    color: #BF953F;
+    line-height: 2.5;
+    font-family: 'Limelight', cursive;
+}
+
+.four {
+    grid-column: 3;
+    grid-row: 3 / 5;
+    border: 4px solid;
+    border-color: #BF953F;
+    opacity: 80%;
+    top: 50px;
+    border-radius: 15px;
+}
+
+.five {
+    grid-column: 2;
+    grid-row: 4;
+    border: 4px solid;
+    border-radius: 15px;
+    border-color: #BF953F;
+    opacity: 80%;
+    border-radius: 15px;
+}
+
+.six {
+    grid-column: 3;
+    grid-row: 4;
+    border: 4px solid;
+    border-radius: 15px;
+    border-color: #BF953F;
+    opacity: 80%;
+    border-radius: 15px;
+}
+
+.section-1 .box1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.section-1 {
+    height: 57vmin;
+    background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.45)), rgba(0, 0, 0, 0.55) url(itl.cat_destroyed-city-wallpaper_1376869.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+    padding: 40px 0px 45vw 20px;
+    margin: 0px 0px 0vw 0px;
+    width: 100%;
+}
+
+/* ---------------------------Section 1 End---------------------------- */
+.section-2 {
+    text-align: center;
+    font-size: 1vw;
+    background: black;
+    height: 700px;
+    width: auto;
+    border: 2px solid;
+    border-top-color: #BF953F;
+    border-right-color: #BF953F;
+    border-bottom-color: #BF953F;
+    border-left-color: #BF953F;
+    padding: 5px 5px 5px 5px;
+}
+
+.section-3 {
+    background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.45)), rgba(0, 0, 0, 0.55) url(black-and-white-architecture-road-white-street-photography-1203061-pxhere.com.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 40px 0px 45vw 20px;
+    width: 100%;
+}
+
+.section-4 {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 1vw;
+    background: black;
+    color: #BF953F;
+    height: 1800px;
+    width: auto;
+    border: 2px solid;
+    border-top-color: #BF953F;
+    border-right-color: #BF953F;
+    border-bottom-color: #BF953F;
+    border-left-color: #BF953F;
+    background: linear-gradient(#000000a6, #000000a6), #000000a6 url(movie_relics.jpg) no-repeat;
+    background: url(4333791.jpg) no-repeat center center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+.hustle-container {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 350px);
+    gap: 10px;
+    grid-auto-rows: 100px;
+    align-items: start;
+    justify-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.side-hustle {
+    margin-top: 25px;
+    font-size: 3.5em;
+    color: white;
+    font-family: 'Oi', cursive;
+    font-family: 'Monoton', cursive;
+    text-shadow: 4px 4px white;
+    background: rgba(12, 98, 250);
+    background: linear-gradient(to right, rgba(12, 98, 250) 40%, rgba(69, 58, 251) 43%, rgba(133, 22, 162) 48%, rgba(164, 0, 144) 52%, rgba(206, 0, 130) 56%, rgba(251, 0, 109) 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.video {
+    padding: 1em;
+    border: 4px solid #BF953F;
+    border-radius: 15px;
+}
+
+.collection {
+    height: 500px;
+    width: auto;
+    border: 4px solid #BF953F;
+    border-radius: 15px;
+    margin-left: 3vw;
+    margin-bottom: 50px;
+}
+
+.box p {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        background-color: black;
+    }
+
+    #links-container {
+        width: 70%;
+        margin: 30px 20px;
+    }
+
+    #nav-icon {
+        margin: 5px 5px 5px 5px;
+        display: block;
+    }
+
+    .header-button {
+        font-size: 12px;
+        font-family: 'Prompt', sans-serif;
+        width: 80px;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+        margin: 2px 40px 0px -15px;
+        height: 25px;
+        text-align: center;
+        border: 1px solid;
+        border-color: #86eae9;
+        background-size: 300% 100%;
+        border-radius: 0px 0px 20px 20px;
+        border-top-color: #0000;
+        transition: all .4s ease-in-out;
+        background-size: cover;
+    }
+
+    #top-button {
+        position: fixed;
+        bottom: 20px;
+        left: -700px;
+        cursor: pointer;
+        border: #000;
+        transition-duration: 0.4s;
+        background-color: #0000;
+    }
+
+    .button-pic {
+        width: 80px;
+        height: auto;
+        background-color: #00000019;
+        border-radius: 50%;
+        box-shadow: 0 0px 13px 12px rgb(0 0 0 / 10%);
+    }
+
+    .wrapper {
+        display: inline-table;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        color: #000;
+        grid-auto-rows: minmax(75px, 5vw);
+        justify-items: center;
+        align-items: baseline;
+        justify-content: center;
+        align-content: center;
+    }
+
+    @media screen and (max-width: 500px) {
+        body {
+            background-color: black;
+        }
+
+        #links-container {
+            width: 70%;
+            margin: 45px -10px;
+        }
+
+        #nav-icon {
+            margin: 5px 5px 5px 5px;
+            display: block;
+        }
+
+        .header-button {
+            font-size: 12px;
+            font-family: 'Prompt', sans-serif;
+            width: 60px;
+            font-weight: 600;
+            color: #fff;
+            cursor: pointer;
+            margin: 2px 6px 0px -15px;
+            height: 25px;
+            text-align: center;
+            border: 1px solid;
+            border-color: #86eae9;
+            background-size: 300% 100%;
+            border-radius: 0px 0px 20px 20px;
+            border-top-color: #0000;
+            transition: all .4s ease-in-out;
+        }
+
+        .wrapper {
+            display: table-cell;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            color: #000;
+            grid-auto-rows: minmax(75px, 5vw);
+            justify-items: center;
+            align-items: baseline;
+            justify-content: center;
+            align-content: center;
+        }
+    }
+}
