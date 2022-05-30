@@ -1,7 +1,6 @@
 #top-button {
   position: fixed;
   bottom: 20px;
-  right: 30px;
   cursor: pointer;
   border: #000;
   z-index: 500;

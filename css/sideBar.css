@@ -3,16 +3,18 @@
   display: block;
 }
 #links-icon-links-container {
-  float: right;
   position: fixed;
-  top: 90px;
-  right: 30px;
-  width: 5vw;
+  display: flex;
+  top: 350px;
+  right: 21vmax;
+  width: 55vw;
   cursor: pointer;
   transition-duration: 0.4s;
   background-color: #0000;
-  text-align:center;
+  text-align: center;
   margin: 0px;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 #links-header-icon-github {
   cursor: pointer;
@@ -24,7 +26,7 @@
   margin: 25px 0px 15px 0px;
 }
 .links-github-pic {
-  width: 3.5vw;
+  width: 5vmax;
   height: auto;
   background-color: #00000000;
 }
@@ -36,7 +38,7 @@
   margin: 0px 0px 15px 0px;
 }
 .links-linkedin-pic {
-  width: 3.5vw;
+  width: 5vmax;
   height: auto;
   background-color: #00000000;
 }
@@ -48,7 +50,7 @@
   margin: 0px 0px 15px 0px;
 }
 .links-youtube-pic {
-  width: 3.5vw;
+  width: 5vmax;
   height: auto;
   background-color: #00000000;
 }
@@ -60,7 +62,7 @@
   margin: 0px 0px 15px 0px;
 }
 .links-instagram-pic {
-  width: 3.5vw;
+  width: 5vmax;
   height: auto;
   background-color: #00000000;
 }
@@ -72,7 +74,7 @@
   margin: 0px 0px 15px 0px;
 }
 .links-facebook-pic {
-  width: 3.5vw;
+  width: 5vmax;
   height: auto;
   background-color: #00000000;
 }
@@ -84,7 +86,7 @@
   margin: 0px 0px 15px -10px;
 }
 .links-movierelics-pic {
-  width: 4.5vw;
+  width: 5vmax;
   height: auto;
   background-color: #00000000;
 }
