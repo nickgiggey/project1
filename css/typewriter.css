@@ -1,0 +1,191 @@
+.typing {
+    margin-top: 20vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    letter-spacing: .025em;
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+.text {
+    color: #00ffe7;
+}
+
+[class*="text-"] {
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+.text-one {
+    animation-name: letter1;
+}
+
+@keyframes letter1 {
+    0% {
+        opacity: 0;
+    }
+
+    2%, 100% {
+        opacity: 1;
+    }
+}
+
+.text-two {
+    animation-name: letter2;
+}
+
+@keyframes letter2 {
+    0%, 2% {
+        opacity: 0;
+    }
+
+    4%, 100% {
+        opacity: 1;
+    }
+}
+
+.text-three {
+    animation-name: letter3;
+}
+
+@keyframes letter3 {
+    0%, 4% {
+        opacity: 0;
+    }
+
+    6%, 100% {
+        opacity: 1;
+    }
+}
+
+.text-four {
+    animation-name: letter4;
+}
+
+@keyframes letter4 {
+    0%, 6% {
+        opacity: 0;
+    }
+
+    8%, 100% {
+        opacity: 1;
+    }
+}
+
+.text-five {
+    animation-name: letter5;
+}
+
+@keyframes letter5 {
+    0%, 8% {
+        opacity: 0;
+    }
+
+    10%, 100% {
+        opacity: 1;
+    }
+}
+
+.text-six {
+    animation-name: letter6;
+}
+
+@keyframes letter6 {
+    0%, 10% {
+        opacity: 0;
+    }
+
+    12%, 100% {
+        opacity: 1;
+    }
+}
+
+.text-seven {
+    animation-name: letter7;
+}
+
+@keyframes letter7 {
+    0%, 20% {
+        opacity: 0;
+    }
+
+    22%, 100% {
+        opacity: 1;
+    }
+}
+
+.text-eight {
+    animation-name: letter8;
+}
+
+@keyframes letter8 {
+    0%, 22% {
+        opacity: 0;
+    }
+
+    24%, 100% {
+        opacity: 1;
+    }
+}
+
+.text-nine {
+    animation-name: letter9;
+}
+
+@keyframes letter9 {
+    0%, 24% {
+        opacity: 0;
+    }
+
+    26%, 100% {
+        opacity: 1;
+    }
+}
+
+.text-ten {
+    animation-name: letter10;
+}
+
+@keyframes letter10 {
+    0%, 26% {
+        opacity: 0;
+    }
+
+    28%, 100% {
+        opacity: 1;
+    }
+}
+
+.text-eleven {
+    animation-name: letter11;
+}
+
+@keyframes letter11 {
+    0%, 28% {
+        opacity: 0;
+    }
+
+    30%, 100% {
+        opacity: 1;
+    }
+}
+
+.text-twelve {
+    animation-name: letter12;
+}
+
+@keyframes letter12 {
+    0%, 30% {
+        opacity: 0;
+    }
+
+    32%, 100% {
+        opacity: 1;
+    }
+}
