@@ -2,99 +2,138 @@
   margin: 0 auto;
   display: block;
 }
+
 #links-icon-links-container {
-  float: right;
   position: fixed;
-  top: 90px;
-  right: 30px;
-  width: 5vw;
+  display: flex;
+  top: 350px;
+  right: 21vmax;
+  width: 55vw;
   cursor: pointer;
   transition-duration: 0.4s;
   background-color: #0000;
   text-align: center;
   margin: 0px;
+  justify-content: space-between;
+  align-items: flex-end;
 }
+
 #links-header-icon-github {
   cursor: pointer;
   border: none;
   transition-duration: 0.4s;
-  background-color: #0000;
   background-position: center center;
   background-size: cover;
   margin: 25px 0px 15px 0px;
+  background-color: #00000055;
+  border-radius: 100%;
+  box-shadow: 0 0 13px 12px #00000025;
 }
+
 .links-github-pic {
-  width: 3.5vw;
+  width: 5vmax;
   height: auto;
-  background-color: #00000000;
+  background-color: #00000055;
+  border-radius: 100%;
+  box-shadow: 0 0px 53px 52px #00000085;
 }
+
 #links-header-icon-linkedin {
   cursor: pointer;
   border: none;
   transition-duration: 0.4s;
-  background-color: #0000;
   margin: 0px 0px 15px 0px;
+  background-color: #00000055;
+  border-radius: 15%;
+  box-shadow: 0 0px 53px 52px #00000025;
 }
+
 .links-linkedin-pic {
-  width: 3.5vw;
+  width: 5vmax;
   height: auto;
-  background-color: #00000000;
+  background-color: #00000055;
+  box-shadow: 0 0px 53px 52px #00000085;
 }
+
 #links-header-icon-youtube {
   cursor: pointer;
   border: none;
   transition-duration: 0.4s;
-  background-color: #0000;
   margin: 0px 0px 15px 0px;
+  background-color: #00000055;
+  border-radius: 100%;
+  box-shadow: 0 0px 53px 52px #00000025;
 }
+
 .links-youtube-pic {
-  width: 3.5vw;
+  width: 5vmax;
   height: auto;
-  background-color: #00000000;
+  background-color: #00000055;
+  border-radius: 100%;
+  box-shadow: 0 0px 53px 52px #00000085;
 }
+
 #links-header-icon-instagram {
   cursor: pointer;
   border: none;
   transition-duration: 0.4s;
-  background-color: #0000;
   margin: 0px 0px 15px 0px;
+  background-color: #00000025;
+  border-radius: 15%;
+  box-shadow: 0 0px 53px 52px #00000085;
 }
+
 .links-instagram-pic {
-  width: 3.5vw;
+  width: 5vmax;
   height: auto;
-  background-color: #00000000;
+  background-color: #00000055;
+  box-shadow: 0 0px 53px 52px #00000085;
 }
+
 #links-header-icon-facebook {
   cursor: pointer;
   border: none;
   transition-duration: 0.4s;
-  background-color: #0000;
   margin: 0px 0px 15px 0px;
+  background-color: #00000055;
+  border-radius: 15%;
+  box-shadow: 0 0px 53px 52px #00000025;
 }
+
 .links-facebook-pic {
-  width: 3.5vw;
+  width: 5vmax;
   height: auto;
-  background-color: #00000000;
+  background-color: #00000055;
+  box-shadow: 0 0px 53px 52px #00000085;
 }
+
 #links-header-icon-movierelics {
   cursor: pointer;
   border: none;
   transition-duration: 0.4s;
-  background-color: #0000;
   margin: 0px 0px 15px -10px;
+  background-color: #00000055;
+  border-radius: 100%;
+  box-shadow: 0 0px 53px 52px #00000025;
 }
+
 .links-movierelics-pic {
-  width: 4.5vw;
+  width: 5vmax;
   height: auto;
-  background-color: #00000000;
+  background-color: #00000055;
+  border-radius: 100%;
+  box-shadow: 0 0px 53px 52px #00000085;
 }
+
 .links-header-icon:hover {
   background-position: 100% 0;
   transition: all .4s ease-in-out;
 }
+
 .links-header-icon:focus {
   outline: none;
 }
+
 .links-header-icon.color {
   background-image: linear-gradient(to left, black, #37c9ef, black, black);
 }

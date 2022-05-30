@@ -53,3 +53,17 @@ previousButton.addEventListener('click', function () {
 });
 
 // ------------------------------------------------------Scroll items
+
+let introPhrase = "Welcome";
+let splitPhrase = introPhrase.split("");
+let clear;
+
+function typeWriter() {
+    if (splitPhrase.length > 0) {
+        document.getElementById("text").innerHTML += splitPhrase.shift();
+    } else {
+        clearTimeout(clear);
+    }
+    loopIt = setTimeout("typeWriter()", 150);
+}
+typeWriter();
