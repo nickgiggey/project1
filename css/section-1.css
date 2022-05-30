@@ -55,12 +55,12 @@
 .intro-title {
     color: white;
     margin: 20px;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .portfolio {
     color: silver;
-    margin: 15px;
+    margin: 1.5rem;
 }
 
 .box p {
@@ -144,7 +144,7 @@
     background-size: cover;
     background-position: center;
     background-size: 100%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     padding: 40px 0px 20vw 20px;
     margin: 0px 0px 0vw 0px;
     width: 100%;

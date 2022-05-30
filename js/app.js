@@ -1,21 +1,19 @@
-// --------------------------------------------------To the top button
-
-const toTopButton = document.querySelector("#top-button");
+let toTopButton = document.querySelector("#top-button");
 toTopButton.addEventListener("click", toTop);
-
-function toTop() {
-    window.scrollTo(0, 0);
-}
-
-// -----------------------------------------------------Carousel
-
 let previousButton = document.querySelector('.previous-button');
 let nextButton = document.querySelector('.next-button');
 let pictureList = document.querySelector('.picture-list');
 let pictures = document.querySelectorAll('.pictures');
 let slider = pictures[0].offsetWidth;
 let picture = 0;
-
+let introPhrase = "Welcome";
+let splitPhrase = introPhrase.split("");
+let clear;
+// -------------------------------------------------To the top button
+function toTop() {
+    window.scrollTo(0, 0);
+}
+// -----------------------------------------------------Carousel
 window.addEventListener('resize', () => {
     slider = pictures[0].offsetWidth;
 });
@@ -51,13 +49,7 @@ previousButton.addEventListener('click', function () {
     pictureList.style.transform = 'translateX(-' + slider * picture + 'px)';
     buttons(picture);
 });
-
-// ------------------------------------------------------Scroll items
-
-let introPhrase = "Welcome";
-let splitPhrase = introPhrase.split("");
-let clear;
-
+// ----------------------------------------------------Typewriter
 function typeWriter() {
     if (splitPhrase.length > 0) {
         document.getElementById("text").innerHTML += splitPhrase.shift();
