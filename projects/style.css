@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&family=#BF953Ftail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Rock Salt', cursive;
+}
+
+li {
+    list-style: none
+}
+
+body {
+    margin: 4px;
+    font-family: 'Rock Salt', cursive;
+    background-color: #BF953F;
+}
+
+/* -------------------------Section 1 Boxes--------------------------- */
+.section-2 {
+    text-align: center;
+    font-size: 1vw;
+    background: black;
+    background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.45)), rgba(0, 0, 0, 0.55) url(graffiti-wallpaper.jpeg);
+    background-size: 120%;
+    height: 900px;
+    width: 100%;
+    border: 2px solid;
+    border-top-color: #BF953F;
+    border-right-color: #BF953F;
+    border-bottom-color: #BF953F;
+    border-left-color: #BF953F;
+    padding: 5px 5px 5px 5px;
+    box-shadow: inset 0 0 10px 3px rgba(0, 0, 0, 0.8);
+}
+
+.section-3 {
+    background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.45)), rgba(0, 0, 0, 0.55) url(black-and-white-architecture-road-white-street-photography-1203061-pxhere.com.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    padding: 40px 0px 45vw 20px;
+    width: 100%;
+    height: 900px;
+}
+
+.section-4 {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 1vw;
+    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.45)), rgba(0, 0, 0, 0.55) url(chris-barbalis-211599.webp);
+    color: #BF953F;
+    background-size: 100%;
+    height: 1400px;
+    width: 100%;
+    border: 2px solid;
+    border-top-color: #BF953F;
+    border-right-color: #BF953F;
+    border-bottom-color: #BF953F;
+    border-left-color: #BF953F;
+    box-shadow: inset 0 0 10px 3px rgba(0, 0, 0, 0.8);
+}

@@ -56,6 +56,6 @@ function typeWriter() {
     } else {
         clearTimeout(clear);
     }
-    loopIt = setTimeout("typeWriter()", 150);
+    loopIt = setTimeout("typeWriter()", 250);
 }
 typeWriter();
