@@ -17,6 +17,15 @@ body {
     background-color: #BF953F;
 }
 
+img {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+img[data-src] {
+    opacity: 0;
+}
+
 /* -------------------------Section 1 Boxes--------------------------- */
 .section-2 {
     text-align: center;
