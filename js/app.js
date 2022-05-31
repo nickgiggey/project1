@@ -60,9 +60,3 @@ function typeWriter() {
 }
 typeWriter();
 // -------------------------------------------------------Lazy
-highResImage.onload = function () {
-    lowResImage.src = highResImage.src;
-};
-setTimeout(function () {
-    highResImage.src = urlencode(highRes);
-}, 1000);
